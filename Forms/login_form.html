@@ -6,10 +6,16 @@
 	</head>
 	<body bgcolor="GreenYellow">  
 		<center><h1>Login Form</h1>
-			Email:<input type="text" name="email" value=""><br><br>
-			Password:<input type="password" name="password" value=""><br><br>
+                       <form method = "post" action="https://www.linux.org/">
+			<label>Email:</label>
+			<input type="text" name="email" value=""><br><br>
+			<label>Password:</label>
+			<input type="password" name="password" value="">
+			<br><br>
+			<input type="hidden" name="recipient" value="linux@linux.com">
 	 <input type="submit" name="submit">
 	 <input type="reset" name="clear">
 		</center>
+		       </form>
 	</body>
 	</html>
